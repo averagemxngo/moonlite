@@ -1,12 +1,6 @@
-Moonlite is a modern Minecraft hub server solution that is based on DeluxeHub by ItsLewizz.
-It contains almost all of its features and configuration files are almost the same, so you can just
-drop your configuration into the plugin's directory, make a few modifications and use it.
+MMoonlite is a modern Minecraft hub server solution that is based on DeluxeHub by ItsLewizz. It contains almost all of its features and configuration files are almost the same, so you can just drop your configuration into the plugin's directory, make a few modifications and use it.
 
-The main difference between Moonlite and DeluxeHub is that Akropolis uses more modern technologies, like MiniMessage,
-the Paper API and updated Java versions. While this give us some performance and usability benefits, it also means
-that we won't be giving support to older versions of Minecraft and other Minecraft server software that isn't derivated
-from Paper, which is not the case of DeluxeHub.
-Simply use what you feel meets your needs.
+The main difference between Moonlite and DeluxeHub is that Moonlite uses more modern technologies, like MiniMessage, the Paper API and updated Java versions. While this give us some performance and usability benefits, it also means that we won't be giving support to older versions of Minecraft and other Minecraft server software that isn't derivated from Paper, which is not the case of DeluxeHub. Simply use what you feel meets your needs.
 
 ## How to
 
