@@ -1,13 +1,14 @@
-#     _    _                          _ _
-#    / \  | | ___ __ ___  _ __   ___ | (_)___
-#   / _ \ | |/ / '__/ _ \| '_ \ / _ \| | / __|
-#  / ___ \|   <| | | (_) | |_) | (_) | | \__ \
-# /_/   \_\_|\_\_|  \___/| .__/ \___/|_|_|___/
-#                        |_|
+
+# ███╗░░░███╗░█████╗░░█████╗░███╗░░██╗██╗░░░░░██╗████████╗███████╗
+# ████╗░████║██╔══██╗██╔══██╗████╗░██║██║░░░░░██║╚══██╔══╝██╔════╝
+# ██╔████╔██║██║░░██║██║░░██║██╔██╗██║██║░░░░░██║░░░██║░░░█████╗░░
+# ██║╚██╔╝██║██║░░██║██║░░██║██║╚████║██║░░░░░██║░░░██║░░░██╔══╝░░
+# ██║░╚═╝░██║╚█████╔╝╚█████╔╝██║░╚███║███████╗██║░░░██║░░░███████╗
+# ╚═╝░░░░░╚═╝░╚════╝░░╚════╝░╚═╝░░╚══╝╚══════╝╚═╝░░░╚═╝░░░╚══════╝
 #--------
 # CUSTOM MENUS:
 #
-#   You can add more menus to the "Akropolis/menus" directory,
+#   You can add more menus to the "Moonlite/menus" directory,
 #   copy and paste the default, server selector, menu and edit the file.
 #   Use the name of the file as the action ID.
 #--------
@@ -24,7 +25,7 @@
 #   PlaceholderAPI's placeholders use the following format: <papi:placeholder>
 #   Example: <papi:luckperms_prefix>
 #
-#   If you prefer a more modern alternative to PlaceholderAPI, Akropolis is also compatible with MiniPlaceholders
+#   If you prefer a more modern alternative to PlaceholderAPI, Moonlite is also compatible with MiniPlaceholders
 #   by 4drian3d, which uses a more easy to read format. Example: <luckperms_prefix>
 #   For more information see: https://github.com/MiniPlaceholders/MiniPlaceholders/wiki/User-Getting-Started
 #--------
@@ -40,7 +41,7 @@
 #   [GAMEMODE] <gamemode> - Change a players' gamemode
 #   [SERVER] <server> - Send a player to a server
 #   [EFFECT] <effect;level>- Give a potion effect
-#   [MENU] <menu> - Open a menu from (plugins/Akropolis/menus)
+#   [MENU] <menu> - Open a menu from (plugins/Moonlite/menus)
 #   [CLOSE] - Close an open inventory
 #--------
 # MESSAGE FORMATTING:
@@ -57,7 +58,7 @@
 # | GENERAL SETTINGS                         |
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
-# List your worlds you don't want Akropolis to manage.
+# List your worlds you don't want Moonlite to manage.
 disabled-worlds:
   # Should we invert the list making it a whitelist rather than a blacklist?
   invert: false
@@ -75,7 +76,7 @@ anti_wdl:
   # Should AntiWDL be enabled?
   enabled: true
 
-  # Should players with 'akropolis.antiwdl.alert' will be notified?
+  # Should players with 'moonlite.antiwdl.alert' will be notified?
   notify_admins: true
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -120,7 +121,7 @@ scoreboard:
     enabled: true
     rate: 200 # In ticks (20 ticks = 1 second).
 
-  title: "<gold><b>Akropolis <reset><dark_gray>(<yellow><online><dark_gray>/<yellow><online_max><dark_gray>)"
+  title: "<gold><b>Moonlite <reset><dark_gray>(<yellow><online><dark_gray>/<yellow><online_max><dark_gray>)"
   lines:
     - ""
     - "<dark_gray>» <gray>Player<dark_gray>: <yellow><player>"
@@ -144,7 +145,7 @@ tablist:
   # Modify the header of the tablist.
   header:
     - ""
-    - "<dark_gray>» <gold><b>Akropolis <reset><dark_gray>(<yellow><online><dark_gray>/<yellow><online_max><dark_gray>) <dark_gray>«"
+    - "<dark_gray>» <gold><b>Moonlite <reset><dark_gray>(<yellow><online><dark_gray>/<yellow><online_max><dark_gray>) <dark_gray>«"
     - ""
 
   # Modify the footer of the tablist.
@@ -159,7 +160,7 @@ tablist:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 announcements:
-  # Should the announcements' system be enabled?
+  # Should the announcements' system be enabled ?
   enabled: true
 
   # Delay sending announcements (in seconds).
@@ -179,53 +180,18 @@ announcements:
     test1:
       - "<reset>"
       - "<blue><b>INFORMATION"
-      - "<click:open_url:'https://github.com/devblook/akropolis/'><hover:show_text:'<yellow>Click here to see the source code!'><dark_gray>» <gray>The source code of the plugin is available on <white>GitHub<gray>.</hover></click>"
+      - "<click:open_url:'https://github.com/averagemxngo/moonlite/tree/develop'><hover:show_text:'<yellow>Click here to see the source code!'><dark_gray>» <gray>The source code of the plugin is available on <white>GitHub<gray>.</hover></click>"
       - "<reset>"
     test2:
       - "<reset>"
       - "<gold><b>ANNOUNCEMENT"
-      - "<click:open_url:'https://github.com/zetastormy/'><hover:show_text:'<yellow>Click here to navigate to my GitHub!'><dark_gray>» <gray>This plugin was forked by <yellow>ZetaStormy<gray>.</hover></click>"
+      - "<click:open_url:'https://modrinth.com/project/moonlite'><hover:show_text:'<yellow>Click here to navigate to the Modrinth :D'><dark_gray>» <gray>This plugin was forked by <yellow>ZetaStormy<gray>.</hover></click>"
       - "<reset>"
     test3:
       - "<reset>"
       - "<yellow><b>TIP"
       - "<dark_gray>» <gray>Configure these messages in the <aqua>config.yml<gray>."
       - "<reset>"
-    test4:
-      - "<reset>"
-      - "<blue><b>INFORMATION"
-      - "<click:open_url:'https://github.com/devblook/'><hover:show_text:'<yellow>Click here to navigate to our GitHub!'><dark_gray>» <gray>This plugin is maintained by <color:#1e2f45>Dev<white>Blook <gray>Team.</hover></click>"
-      - "<reset>"
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-# | BOSS BAR AUTO BROADCAST                  |
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-
-boss_bar_announcements:
-  # Should the boss bar announcements' system be enabled?
-  enabled: false
-
-  # Delay sending boss bar announcements (in seconds).
-  delay: 60
-
-  # Choose how the boss bar looks.
-  overlay:
-    # Decide if the boss bar is continuous or split into segments.
-    # Valid options: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-    type: "PROGRESS"
-    # The amount of boss bar that's filled up. A number in the interval [0, 1].
-    progress: 1.0
-
-  sound:
-    enabled: false
-    value: BLOCK_NOTE_BLOCK_PLING
-    volume: 1.0
-    pitch: 1.0
-
-  announcements:
-    - "<blue><b>THIS SERVER USES AKROPOLIS"
-    - "<gold><b>NOW WITH BOSS BAR ANNOUNCEMENTS!"
-    - "<gradient:green:blue><b>MINIMESSAGE SUPPORT!"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # | LAUNCHPAD                                |
@@ -287,18 +253,15 @@ fly:
 groups:
   # Create all the group formats you want following the same template.
   # To use any of these formats, the player must have the permission
-  # akropolis.chat.group.<group name>
-
-  # If you want to disable this feature temporally, just deny the akropolis.chat.group.default
-  # permission in LuckPerms or whichever permission management plugin you use. Otherwise, use the option below.
-  enabled: false
-
+  # Moonlite.chat.group.<group name>
+  # If you want to disable this feature, just deny the Moonlite.chat.group.default
+  # permission in LuckPerms or whichever permission management plugin you use.
   default:
     format: "<hover:show_text:'<rainbow>You can also use hover here!'><papi:luckperms_prefix></hover> <gray><player> <dark_gray>» <gray><message>"
     # Just in case you want to slow down your players a little.
     cooldown:
       time: 3 # Time is in seconds.
-      message: "<gold><b>Akropolis <reset><dark_gray>|| <red>Please wait <yellow><time>s <red>before talking again!"
+      message: "<gold><b>Moonlite <reset><dark_gray>|| <red>Please wait <yellow><time>s <red>before talking again!"
   staff:
     format: "<papi:luckperms_prefix> <red><player> <dark_gray>» <white><message>"
   vip:
@@ -306,7 +269,7 @@ groups:
     # You can use the cooldown feature everywhere you want!
     cooldown:
       time: 1 # Time is in seconds.
-      message: "<gold><b>Akropolis <reset><dark_gray>|| <red>Please wait <yellow><time>s <red>before talking again!"
+      message: "<gold><b>Moonlite <reset><dark_gray>|| <red>Please wait <yellow><time>s <red>before talking again!"
 
 command_block:
   # Should the command blocker feature be enabled?
@@ -372,7 +335,7 @@ world_settings:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 join_leave_messages:
-  # Should Akropolis handle join/quit messages?
+  # Should Moonlite handle join/quit messages?
   enabled: true
 
   # Set to '' if you want silent join/quit messages.
@@ -389,7 +352,7 @@ join_events:
   - "[MESSAGE] <dark_gray>» <gray>Store<dark_gray>: <yellow>store.example.com"
   - "[MESSAGE] <dark_gray>» <gray>Discord<dark_gray>: <yellow>discord.example.com"
   - "[MESSAGE] <reset>"
-  - "[MESSAGE]             <gray><i>Powered by Akropolis"
+  - "[MESSAGE]             <gray><i>Powered by Moonlite"
   - "[MESSAGE] <dark_gray><st>+---------------***---------------+"
   - "[TITLE] <yellow><b>WELCOME;<white><player>;1;2;1"
   - "[SOUND] ENTITY_PLAYER_LEVELUP"
@@ -433,7 +396,6 @@ custom_join_items:
       material: BOOK
       amount: 1
       slot: 0
-      # custom_model_data: 1234
       display_name: "<gold>Server Information <gray>(Right-Click)"
       lore:
         - "<dark_gray>» <gray>Right click to see information about the server!"
