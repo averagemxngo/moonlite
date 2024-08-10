@@ -1,5 +1,3 @@
-# Moonlite 🌟 #
-
 ## About
 
 ### What is Moonlite?
