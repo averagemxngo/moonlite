@@ -1,6 +1,6 @@
-name: Akropolis
-authors: [ ZetaStormy, ItsLewizzz ]
-version: ${version}
+name: Moonlite
+authors: [ Mxngo ]
+version: 1.5.3
 description: A modern Minecraft server hub core solution. Based on DeluxeHub by ItsLewizz.
 api-version: "1.20"
 main: team.devblook.akropolis.AkropolisPlugin
@@ -26,7 +26,7 @@ dependencies:
 
 permissions:
   akropolis.*:
-    description: Gives access to all Akropolis permissions
+    description: Gives access to all Moonlite permissions
     children:
       akropolis.command.*: true
       akropolis.bypass.*: true
