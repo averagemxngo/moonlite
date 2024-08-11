@@ -57,7 +57,7 @@ public class AkropolisPlugin extends JavaPlugin {
         long start = System.currentTimeMillis();
 
         getLogger().log(Level.INFO, "___  ___                  _ _ _");
-        getLogger().log(Level.INFO, "|  \/  |                 | (_) |");
+        getLogger().log(Level.INFO, "|  \\/  |                 | (_) |");
         getLogger().log(Level.INFO, "| .  . | ___   ___  _ __ | |_| |");
         getLogger().log(Level.INFO, "| .  . | ___   ___  _ __ | |_| |_ ___ ");
         getLogger().log(Level.INFO, "| |\\/| |/ _ \\ / _ \\| '_ \\| | | __/ _ \\");
