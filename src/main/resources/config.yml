@@ -179,18 +179,13 @@ announcements:
   announcements:
     test1:
       - "<reset>"
-      - "<blue><b>INFORMATION"
-      - "<click:open_url:'https://github.com/averagemxngo/moonlite/tree/develop'><hover:show_text:'<yellow>Click here to see the source code!'><dark_gray>» <gray>The source code of the plugin is available on <white>GitHub<gray>.</hover></click>"
+      - "<yellow><b>TIP"
+      - "<dark_gray>» <gray>Configure these messages in the <aqua>config.yml<gray>."
       - "<reset>"
     test2:
       - "<reset>"
-      - "<gold><b>ANNOUNCEMENT"
-      - "<click:open_url:'https://modrinth.com/project/moonlite'><hover:show_text:'<yellow>Click here to navigate to the Modrinth :D'><dark_gray>» <gray>This plugin was forked by <yellow>ZetaStormy<gray>.</hover></click>"
-      - "<reset>"
-    test3:
-      - "<reset>"
       - "<yellow><b>TIP"
-      - "<dark_gray>» <gray>Configure these messages in the <aqua>config.yml<gray>."
+      - "<dark_gray>» <gray>This plugin was made by:<aqua>Mxngo<gray>."
       - "<reset>"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
