@@ -126,7 +126,7 @@ public class CommandManager {
 
     private void registerCommand(InjectableCommand command) {
         try {
-            commandMap.register("akropolis", command);
+            commandMap.register("moonlite", command);
             commands.add(command);
         } catch (Exception e) {
             e.printStackTrace();
@@ -137,7 +137,7 @@ public class CommandManager {
         try {
             command.getAliases().forEach(a -> commandMap.getKnownCommands().remove(a));
             commandMap.getKnownCommands().remove(command.getName());
-            commandMap.getKnownCommands().remove("akropolis:" + command.getName());
+            commandMap.getKnownCommands().remove("moonlite:" + command.getName());
             command.unregister(commandMap);
         } catch (Exception e) {
             e.printStackTrace();
