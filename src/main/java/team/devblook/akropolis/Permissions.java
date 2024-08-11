@@ -48,6 +48,6 @@ public enum Permissions {
     }
 
     public final String getPermission() {
-        return "akropolis." + this.permission;
+        return "moonlite." + this.permission;
     }
 }
