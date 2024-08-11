@@ -56,13 +56,14 @@ public class AkropolisPlugin extends JavaPlugin {
 
         long start = System.currentTimeMillis();
 
-        getLogger().log(Level.INFO, "     _    _                          _ _     ");
-        getLogger().log(Level.INFO, "    / \\  | | ___ __ ___  _ __   ___ | (_)___ ");
-        getLogger().log(Level.INFO, "   / _ \\ | |/ / '__/ _ \\| '_ \\ / _ \\| | / __|");
-        getLogger().log(Level.INFO, "  / ___ \\|   <| | | (_) | |_) | (_) | | \\__ \\");
-        getLogger().log(Level.INFO, " /_/   \\_\\_|\\_\\_|  \\___/| .__/ \\___/|_|_|___/");
-        getLogger().log(Level.INFO, "                        |_|                  ");
-        getLogger().log(Level.INFO, "Author: ZetaStormy");
+        getLogger().log(Level.INFO, "___  ___                  _ _ _");
+        getLogger().log(Level.INFO, "|  \/  |                 | (_) |");
+        getLogger().log(Level.INFO, "| .  . | ___   ___  _ __ | |_| |");
+        getLogger().log(Level.INFO, "| .  . | ___   ___  _ __ | |_| |_ ___ ");
+        getLogger().log(Level.INFO, "| |\/| |/ _ \ / _ \| '_ \| | | __/ _ \\");
+        getLogger().log(Level.INFO, "| |  | | (_) | (_) | | | | | | ||  __/");
+        getLogger().log(Level.INFO, "\_|  |_/\___/ \___/|_| |_|_|_|\__\___|");
+        getLogger().log(Level.INFO, "Author: Mxngo");
         getLogger().log(Level.INFO, "Based on DeluxeHub by ItsLewizz.");
         getLogger().log(Level.INFO, "--------");
 
